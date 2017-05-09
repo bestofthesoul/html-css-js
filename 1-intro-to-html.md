@@ -107,13 +107,13 @@ https://www.w3schools.com/Tags/
 
 > Note: Not all tags have visual effect when rendered, some are used for SEO (Search Engine Optimization) or other purposes:
 
-Recommended tags to try:
+Recommended tags to try and combine:
 ```html
 <div>
 <img>
 <table>, <tbody>, <th>, <tr>, <td>
-<input> <!-- different 'type' of input' -->
-<textarea>
+<input> <!-- different 'types' -->
+<select> <option> <textarea>
 <a>
 <ul>, <ol>, <li>
 <strong>, <em>
@@ -121,4 +121,11 @@ Recommended tags to try:
 
 You can play around with `index.html` and `about_me.html` by trying out/adding more different `HTML` tags, or even add more `HTML` pages. But you'll soon notice that you can add more to the *structure* of the website, but not much to the *aesthetics* of the website. This is where CSS comes into play! Give yourself a short **10-15 minutes** to discover HTML and proceed to the *NEXT* challenge.
 
-> Fun fact: Unlike Ruby, even if a HTML document has syntax errors, browser will not raise an error and stop rendering. This is intended so that normal users will not have to see ugly, hard-to-understand error messages. Though, this can make a HTML code hard to debug at times.
+> Fun fact 1: Unlike Ruby, even if a HTML document has syntax errors, browser will not raise an error and stop rendering. This is intended so that normal users will not have to see ugly, hard-to-understand error messages. Though, this can make a HTML code hard to debug at times.
+
+<br>
+
+> Fun fact 2: You can make a link that opens in a new tab like this
+```html
+<a href="https://www.google.com" target="_blank">Google in new tab!</a>
+```
